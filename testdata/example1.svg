@@ -1,0 +1,25 @@
+<svg viewBox="-11.0 -19.0 160.0 48.0" xmlns="http://www.w3.org/2000/svg">
+<g class="rr-rule" id="example1"><circle cx="0.0" cy="0.0" r="1.0" fill="black"/>
+<line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/><g class="rr-bypass">
+<line x1="10.0" y1="0.0" x2="20.0" y2="0.0" stroke="black"/>
+<g class="rr-and"><g class="rr-bypass">
+<line x1="20.0" y1="0.0" x2="30.0" y2="0.0" stroke="black"/>
+<g class="rr-and"><g class="rr-text-box">
+<rect x="30.0" y="-9.0" rx="1.0" ry="1.0" width="34.0" height="18.0" fill="white" stroke="black"/>
+<text x="47.0" y="0.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">Hello,</text>
+</g></g>
+<line x1="64.0" y1="0.0" x2="74.0" y2="0.0" stroke="black"/>
+<path d="M 20.0 0.0 Q 25.0 0.0 25.0 5.0 L 25.0 9.0 Q 25.0 14.0 30.0 14.0" fill="transparent" stroke="black" stroke-width="1.0" />
+<line x1="30.0" y1="14.0" x2="64.0" y2="14.0" stroke="black"/>
+<path d="M 64.0 14.0 Q 69.0 14.0 69.0 9.0 L 69.0 5.0 Q 69.0 0.0 74.0 0.0" fill="transparent" stroke="black" stroke-width="1.0" />
+</g><line x1="74.0" y1="0.0" x2="84.0" y2="0.0" stroke="black" /><g class="rr-and"><g class="rr-text-box">
+<rect x="84.0" y="-9.0" rx="1.0" ry="1.0" width="34.0" height="18.0" fill="white" stroke="black"/>
+<text x="101.0" y="0.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">World!</text>
+</g></g></g>
+<line x1="118.0" y1="0.0" x2="128.0" y2="0.0" stroke="black"/>
+<path d="M 10.0 0.0 Q 15.0 0.0 15.0 5.0 L 15.0 14.0 Q 15.0 19.0 20.0 19.0" fill="transparent" stroke="black" stroke-width="1.0" />
+<line x1="20.0" y1="19.0" x2="118.0" y2="19.0" stroke="black"/>
+<path d="M 118.0 19.0 Q 123.0 19.0 123.0 14.0 L 123.0 5.0 Q 123.0 0.0 128.0 0.0" fill="transparent" stroke="black" stroke-width="1.0" />
+</g><line x1="128.0" y1="0.0" x2="138.0" y2="0.0" stroke="black"/>
+<circle cx="138.0" cy="0.0" r="1.0" fill="black"/></g>
+</svg>
