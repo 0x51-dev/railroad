@@ -1,6 +1,0 @@
-<svg width="30.0" height="40.0" xmlns="http://www.w3.org/2000/svg"><g class="debug">
-<circle cx="10.0" cy="30.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<path d="M 10.0 30.0 Q 15.0 30.0 15.0 25.0 L 15.0 15.0 Q 15.0 10.0 20.0 10.0" fill="transparent" stroke="black" stroke-width="1.0" />
-<circle cx="20.0" cy="10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="10.0" y="10.0" width="10.0" height="20.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g></svg>

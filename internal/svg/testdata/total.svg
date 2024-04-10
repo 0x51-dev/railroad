@@ -1,61 +1,60 @@
-<svg viewBox="-11.0 -39.0 180.0 53.0" xmlns="http://www.w3.org/2000/svg"><g class="debug">
-<circle cx="0.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<circle cx="0.0" cy="0.0" r="1.0" fill="black"/>
+<svg viewBox="-11.0 -29.0 180.0 62.0" xmlns="http://www.w3.org/2000/svg">
+<g class="debug">
+<circle cx="0.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><circle cx="0.0" cy="0.0" r="1.0" fill="black"/>
 <line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/>
 <circle cx="10.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
 <rect x="-1.0" y="-1.0" width="11.0" height="2.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="10.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<path d="M 10.0 0.0 Q 15.0 0.0 15.0 -5.0 L 15.0 -15.0 Q 15.0 -20.0 20.0 -20.0" fill="transparent" stroke="black" stroke-width="1.0" />
-<circle cx="20.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="10.0" y="-20.0" width="10.0" height="20.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="20.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<path d="M 20.0 -20.0 Q 25.0 -20.0 25.0 -15.0 L 25.0 -15.0 Q 25.0 -10.0 30.0 -10.0 L 30.0 -10.0" fill="transparent" stroke="black" stroke-linecap="round" />
-<circle cx="30.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="20.0" y="-20.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="30.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="10.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><path d="M 10.0 0.0 Q 15.0 0.0 15.0 -5.0 L 15.0 -5.0 Q 15.0 -10.0 20.0 -10.0 L 20.0 -10.0" fill="transparent" stroke="black" stroke-linecap="round" />
+<circle cx="20.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="10.0" y="-10.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="20.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><path d="M 20.0 -10.0 Q 25.0 -10.0 25.0 -5.0 L 25.0 -5.0 Q 25.0 0.0 30.0 0.0 L 30.0 0.0" fill="transparent" stroke="black" stroke-linecap="round" />
+<circle cx="30.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="20.0" y="-10.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="30.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
 <g class="rr-bypass">
-<line x1="30.0" y1="-10.0" x2="40.0" y2="-10.0" stroke="black"/>
+<line x1="30.0" y1="0.0" x2="84.0" y2="0.0" stroke="black"/><path d="M 30.0 0.0 Q 35.0 0.0 35.0 5.0 L 35.0 9.0 Q 35.0 14.0 40.0 14.0 L 40.0 14.0" fill="transparent" stroke="black" stroke-linecap="round" />
 <g class="rr-text-box">
-<rect x="40.0" y="-19.0" rx="1.0" ry="1.0" width="34.0" height="18.0" fill="white" stroke="black"/>
-<text x="57.0" y="-10.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">Hello,</text>
+<rect x="40.0" y="5.0" rx="1.0" ry="1.0" width="34.0" height="18.0" fill="white" stroke="black"/>
+<text x="57.0" y="14.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">Hello,</text>
 </g>
-<line x1="74.0" y1="-10.0" x2="84.0" y2="-10.0" stroke="black"/>
-<path d="M 30.0 -10.0 Q 35.0 -10.0 35.0 -5.0 L 35.0 -1.0 Q 35.0 4.0 40.0 4.0" fill="transparent" stroke="black" stroke-width="1.0" />
-<line x1="40.0" y1="4.0" x2="74.0" y2="4.0" stroke="black"/>
-<path d="M 74.0 4.0 Q 79.0 4.0 79.0 -1.0 L 79.0 -5.0 Q 79.0 -10.0 84.0 -10.0" fill="transparent" stroke="black" stroke-width="1.0" />
+<path d="M 74.0 14.0 Q 79.0 14.0 79.0 9.0 L 79.0 5.0 Q 79.0 0.0 84.0 0.0 L 84.0 0.0" fill="transparent" stroke="black" stroke-linecap="round" />
 </g>
-<circle cx="84.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="30.0" y="-19.0" width="54.0" height="23.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="84.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<path d="M 84.0 -10.0 Q 89.0 -10.0 89.0 -15.0 L 89.0 -15.0 Q 89.0 -20.0 94.0 -20.0 L 94.0 -20.0" fill="transparent" stroke="black" stroke-linecap="round" />
-<circle cx="94.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="84.0" y="-20.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="94.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<g class="rr-text-box">
-<rect x="94.0" y="-29.0" rx="4.0" ry="4.0" width="34.0" height="18.0" fill="white" stroke="black"/>
-<text x="111.0" y="-20.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">World!</text>
+<circle cx="84.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="30.0" y="0.0" width="54.0" height="23.0" fill="transparent" stroke="red" stroke-width="0.5"/>
 </g>
-<circle cx="128.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="94.0" y="-29.0" width="34.0" height="18.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="128.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<line x1="128.0" y1="-20.0" x2="138.0" y2="-20.0" stroke="black" stroke-linecap="round" />
-<circle cx="138.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="128.0" y="-20.0" width="10.0" height="0.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="138.0" cy="-20.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<path d="M 138.0 -20.0 Q 143.0 -20.0 143.0 -15.0 L 143.0 -5.0 Q 143.0 0.0 148.0 0.0" fill="transparent" stroke="black" stroke-width="1.0" />
+<g class="debug">
+<circle cx="84.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><path d="M 84.0 0.0 Q 89.0 0.0 89.0 -5.0 L 89.0 -5.0 Q 89.0 -10.0 94.0 -10.0 L 94.0 -10.0" fill="transparent" stroke="black" stroke-linecap="round" />
+<circle cx="94.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="84.0" y="-10.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="94.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><g class="rr-text-box">
+<rect x="94.0" y="-19.0" rx="4.0" ry="4.0" width="34.0" height="18.0" fill="white" stroke="black"/>
+<text x="111.0" y="-10.0" font-size="8.0" textLength="24.0" text-anchor="middle" dominant-baseline="middle">World!</text>
+</g>
+<circle cx="128.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="94.0" y="-19.0" width="34.0" height="18.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="128.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><line x1="128.0" y1="-10.0" x2="138.0" y2="-10.0" stroke="black" stroke-linecap="round" />
+<circle cx="138.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
+<rect x="128.0" y="-10.0" width="10.0" height="0.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="138.0" cy="-10.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><path d="M 138.0 -10.0 Q 143.0 -10.0 143.0 -5.0 L 143.0 -5.0 Q 143.0 0.0 148.0 0.0 L 148.0 0.0" fill="transparent" stroke="black" stroke-linecap="round" />
 <circle cx="148.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<rect x="138.0" y="-20.0" width="10.0" height="20.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g><g class="debug">
-<circle cx="148.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
-<line x1="148.0" y1="0.0" x2="158.0" y2="0.0" stroke="black"/>
+<rect x="138.0" y="-10.0" width="10.0" height="10.0" fill="transparent" stroke="red" stroke-width="0.5"/>
+</g>
+<g class="debug">
+<circle cx="148.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/><line x1="148.0" y1="0.0" x2="158.0" y2="0.0" stroke="black"/>
 <circle cx="158.0" cy="0.0" r="1.0" fill="black"/>
 <circle cx="158.0" cy="0.0" r="2" fill="transparent" stroke="green" stroke-width="0.5"/>
 <rect x="148.0" y="-1.0" width="11.0" height="2.0" fill="transparent" stroke="red" stroke-width="0.5"/>
-</g></svg>
+</g>
+</svg>

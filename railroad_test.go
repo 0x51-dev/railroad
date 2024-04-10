@@ -29,6 +29,28 @@ func TestRailroad(t *testing.T) {
 				},
 			},
 		},
+		{
+			Name: "explain-or",
+			Expr: railroad.OrExpression{
+				Expr: []railroad.Expression{
+					railroad.T("A"),
+					railroad.T("B"),
+					railroad.T("C"),
+				},
+			},
+		},
+		{
+			Name: "explain-optional-or",
+			Expr: railroad.OptionalExpression{
+				Expr: railroad.OrExpression{
+					Expr: []railroad.Expression{
+						railroad.T("A"),
+						railroad.T("B"),
+						railroad.T("C"),
+					},
+				},
+			},
+		},
 
 		{
 			Name: "example1",
@@ -39,6 +61,16 @@ func TestRailroad(t *testing.T) {
 							Expr: railroad.T("Hello,"),
 						},
 						railroad.T("World!"),
+					},
+				},
+			},
+		},
+		{
+			Name: "optional3",
+			Expr: railroad.OptionalExpression{
+				Expr: railroad.OptionalExpression{
+					Expr: railroad.OptionalExpression{
+						Expr: railroad.T("?"),
 					},
 				},
 			},

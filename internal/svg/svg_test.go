@@ -8,22 +8,6 @@ import (
 
 func TestCurve(t *testing.T) {
 	if os.Getenv("GENERATE_SVG") != "" {
-		for idx, e := range []struct {
-			element SVGable
-			start   Point
-		}{
-			{CurveS{L: 10}, Point{X: 10, Y: 30}},
-			{CurveInvS{L: 10}, Point{X: 10, Y: 10}},
-		} {
-			svg, _, box := DebugSVG(e.element, e.start)
-			_ = os.WriteFile(fmt.Sprintf("testdata/curve%d.svg", idx), []byte(
-				fmt.Sprintf(
-					`<svg width="%.1f" height="%.1f" xmlns="http://www.w3.org/2000/svg">%s</svg>`,
-					box.Size.X+20, box.Size.Y+20, svg,
-				),
-			), 0644)
-		}
-
 		t.Run("lines", func(t *testing.T) {
 			for _, size := range []float64{1, 10} {
 				var combinedSVG string
@@ -55,7 +39,8 @@ func TestCurve(t *testing.T) {
 				}
 				_ = os.WriteFile(fmt.Sprintf("testdata/lines%.0f.svg", size), []byte(
 					fmt.Sprintf(
-						`<svg viewBox="%.1f %.1f %.1f %.1f" xmlns="http://www.w3.org/2000/svg">%s</svg>`,
+						`<svg viewBox="%.1f %.1f %.1f %.1f" xmlns="http://www.w3.org/2000/svg">%s
+</svg>`,
 						combinedBox.Position.X-10, combinedBox.Position.Y-10,
 						combinedBox.Size.X+20, combinedBox.Size.Y+20,
 						combinedSVG,
@@ -70,7 +55,7 @@ func TestCurve(t *testing.T) {
 			combinedBox := Box{Position: start}
 			for _, e := range []SVGable{
 				Start{},
-				CurveS{L: 10},
+				Line{RelativeEnd: Point{X: 10, Y: -10}},
 				Line{RelativeEnd: Point{X: 10, Y: 10}},
 				Bypass{
 					Element: TextBox{Text: "Hello,"},
@@ -78,7 +63,7 @@ func TestCurve(t *testing.T) {
 				Line{RelativeEnd: Point{X: 10, Y: -10}},
 				TextBox{Text: "World!", RoundedBorders: true},
 				Line{RelativeEnd: Point{X: 10}},
-				CurveInvS{L: 10},
+				Line{RelativeEnd: Point{X: 10, Y: 10}},
 				End{},
 			} {
 				svg, end, box := DebugSVG(e, start)
@@ -89,7 +74,8 @@ func TestCurve(t *testing.T) {
 			}
 			_ = os.WriteFile("testdata/total.svg", []byte(
 				fmt.Sprintf(
-					`<svg viewBox="%.1f %.1f %.1f %.1f" xmlns="http://www.w3.org/2000/svg">%s</svg>`,
+					`<svg viewBox="%.1f %.1f %.1f %.1f" xmlns="http://www.w3.org/2000/svg">%s
+</svg>`,
 					combinedBox.Position.X-10, combinedBox.Position.Y-10,
 					combinedBox.Size.X+20, combinedBox.Size.Y+20,
 					combinedSVG,

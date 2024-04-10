@@ -28,6 +28,11 @@ func SetCurveRadius(r float64) {
 	curveRadius = r
 }
 
+// GetCurveRadius returns the configured curve radius.
+func GetCurveRadius() float64 {
+	return curveRadius
+}
+
 // SetStrokeWidth sets the stroke width of the curve.
 func SetStrokeWidth(w float64) {
 	strokeWidth = w

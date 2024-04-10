@@ -1,14 +1,25 @@
 <svg viewBox="-11.0 -19.0 104.0 38.0" xmlns="http://www.w3.org/2000/svg">
 <g class="rr-rule" id="explain-and"><circle cx="0.0" cy="0.0" r="1.0" fill="black"/>
-<line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/><g class="rr-and"><g class="rr-and"><g class="rr-text-box">
+<line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/>
+
+<g class="rr-and">
+<g class="rr-term"><g class="rr-text-box">
 <rect x="10.0" y="-9.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
 <text x="17.0" y="0.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">A</text>
-</g></g><line x1="24.0" y1="0.0" x2="34.0" y2="0.0" stroke="black" /><g class="rr-and"><g class="rr-text-box">
+</g>
+</g><line x1="24.0" y1="0.0" x2="34.0" y2="0.0" stroke="black" />
+<g class="rr-term"><g class="rr-text-box">
 <rect x="34.0" y="-9.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
 <text x="41.0" y="0.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">B</text>
-</g></g><line x1="48.0" y1="0.0" x2="58.0" y2="0.0" stroke="black" /><g class="rr-and"><g class="rr-text-box">
+</g>
+</g><line x1="48.0" y1="0.0" x2="58.0" y2="0.0" stroke="black" />
+<g class="rr-term"><g class="rr-text-box">
 <rect x="58.0" y="-9.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
 <text x="65.0" y="0.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">C</text>
-</g></g></g><line x1="72.0" y1="0.0" x2="82.0" y2="0.0" stroke="black"/>
-<circle cx="82.0" cy="0.0" r="1.0" fill="black"/></g>
+</g>
+</g>
+</g>
+<line x1="72.0" y1="0.0" x2="82.0" y2="0.0" stroke="black"/>
+<circle cx="82.0" cy="0.0" r="1.0" fill="black"/>
+</g>
 </svg>

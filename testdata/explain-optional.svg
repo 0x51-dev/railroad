@@ -1,18 +1,25 @@
-<svg viewBox="-11.0 -19.0 100.0 43.0" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-11.0 -19.0 100.0 52.0" xmlns="http://www.w3.org/2000/svg">
 <g class="rr-rule" id="explain-optional"><circle cx="0.0" cy="0.0" r="1.0" fill="black"/>
-<line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/><g class="rr-and"><g class="rr-bypass">
-<line x1="10.0" y1="0.0" x2="20.0" y2="0.0" stroke="black"/>
-<g class="rr-and"><g class="rr-text-box">
-<rect x="20.0" y="-9.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
-<text x="27.0" y="0.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">A</text>
-</g></g>
-<line x1="34.0" y1="0.0" x2="44.0" y2="0.0" stroke="black"/>
-<path d="M 10.0 0.0 Q 15.0 0.0 15.0 5.0 L 15.0 9.0 Q 15.0 14.0 20.0 14.0" fill="transparent" stroke="black" stroke-width="1.0" />
-<line x1="20.0" y1="14.0" x2="34.0" y2="14.0" stroke="black"/>
-<path d="M 34.0 14.0 Q 39.0 14.0 39.0 9.0 L 39.0 5.0 Q 39.0 0.0 44.0 0.0" fill="transparent" stroke="black" stroke-width="1.0" />
-</g><line x1="44.0" y1="0.0" x2="54.0" y2="0.0" stroke="black" /><g class="rr-and"><g class="rr-text-box">
+<line x1="0.5" y1="0.0" x2="10.5" y2="0.0" stroke="black"/>
+
+<g class="rr-and">
+<g class="rr-bypass">
+<line x1="10.0" y1="0.0" x2="44.0" y2="0.0" stroke="black"/><path d="M 10.0 0.0 Q 15.0 0.0 15.0 5.0 L 15.0 9.0 Q 15.0 14.0 20.0 14.0 L 20.0 14.0" fill="transparent" stroke="black" stroke-linecap="round" />
+
+<g class="rr-term"><g class="rr-text-box">
+<rect x="20.0" y="5.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
+<text x="27.0" y="14.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">A</text>
+</g>
+</g>
+<path d="M 34.0 14.0 Q 39.0 14.0 39.0 9.0 L 39.0 5.0 Q 39.0 0.0 44.0 0.0 L 44.0 0.0" fill="transparent" stroke="black" stroke-linecap="round" />
+</g><line x1="44.0" y1="0.0" x2="54.0" y2="0.0" stroke="black" />
+<g class="rr-term"><g class="rr-text-box">
 <rect x="54.0" y="-9.0" rx="1.0" ry="1.0" width="14.0" height="18.0" fill="white" stroke="black"/>
 <text x="61.0" y="0.0" font-size="8.0" textLength="4.0" text-anchor="middle" dominant-baseline="middle">B</text>
-</g></g></g><line x1="68.0" y1="0.0" x2="78.0" y2="0.0" stroke="black"/>
-<circle cx="78.0" cy="0.0" r="1.0" fill="black"/></g>
+</g>
+</g>
+</g>
+<line x1="68.0" y1="0.0" x2="78.0" y2="0.0" stroke="black"/>
+<circle cx="78.0" cy="0.0" r="1.0" fill="black"/>
+</g>
 </svg>
